@@ -1,0 +1,4 @@
+flask
+cohere==3.1.6
+Flask
+uvicorn
