@@ -20,7 +20,7 @@ Steps
 
 4. run this command to install the python packages
 
-    pip install -r requirements
+    pip install -r requirements.txt
 
 5. run this command to start the chatbot
 
