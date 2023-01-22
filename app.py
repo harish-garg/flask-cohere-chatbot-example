@@ -3,10 +3,10 @@ import os
 import cohere
 from flask import Flask, render_template, request
 
-# iniatilize cohere api client
+# initialize cohere api client
 co = cohere.Client(os.environ.get('COHEREAI_API_KEY'))
 
-# initialize an empty  conversation session id
+# initialize a conversation session id
 cohere_chat_res_start = co.chat("Hi")
 conv_session_id = cohere_chat_res_start.session_id
 
